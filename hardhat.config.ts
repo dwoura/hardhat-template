@@ -53,7 +53,7 @@ const config: HardhatUserConfig = {
   etherscan: {
     apiKey: {
       arbitrumSepolia: '',
-      sepolia: '',
+      sepolia: '7SDXGC9HSGSBQ5SD1NGHK5UKQFZ64FICVR',
       optimisticEthereum: '',
       base: '',
     }
