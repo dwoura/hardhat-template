@@ -30,10 +30,10 @@ const config: HardhatUserConfig = {
       url: "https://eth-mainnet.g.alchemy.com/v2/DfqHvUR3P6-A2Ce3XX6Xx_Z4QPM54MZS" || "",
       accounts: [vars.get("Test1_key")],
     },
-    // sepolia: {
-    //   url: "https://eth-sepolia.g.alchemy.com/v2/7dg61Re-J49kkBk9urxJIBwCRaVQcWq8" || "",
-    //   accounts: [vars.get("TEST1_KEY"), vars.get("TEST2_KEY")],
-    // },
+    sepolia: {
+      url: "https://eth-sepolia.g.alchemy.com/v2/ozWVNCbqDXI4BIRxUQtKjpNkJpU1Iy8w" || "",
+      accounts: [vars.get("Test1_key")],
+    },
     // arbitrum: {
     //   url: "https://arb-mainnet.g.alchemy.com/v2/3xJE5XydRW9R6svaRlbiXeyhVEm6yFFQ" || "",
     //   accounts: [vars.get("TEST1_KEY"), vars.get("TEST2_KEY")],
